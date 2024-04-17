@@ -3,7 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicVilla_API", "MagicVilla_API\MagicVilla_API.csproj", "{586252F7-1ABA-4C80-977E-C9F233FFB3CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MagicVilla_API", "MagicVilla_API\MagicVilla_API.csproj", "{586252F7-1ABA-4C80-977E-C9F233FFB3CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicVilla_Web", "MagicVilla_Web\MagicVilla_Web.csproj", "{48A82B9D-7A35-4E5D-9905-793068261CB4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6AB80B56-E171-4264-B9F1-CDBEF7093EAB} = {6AB80B56-E171-4264-B9F1-CDBEF7093EAB}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicVilla_Utilidad", "MagicVilla_Utilidad\MagicVilla_Utilidad.csproj", "{6AB80B56-E171-4264-B9F1-CDBEF7093EAB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +22,14 @@ Global
 		{586252F7-1ABA-4C80-977E-C9F233FFB3CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{586252F7-1ABA-4C80-977E-C9F233FFB3CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{586252F7-1ABA-4C80-977E-C9F233FFB3CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48A82B9D-7A35-4E5D-9905-793068261CB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48A82B9D-7A35-4E5D-9905-793068261CB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48A82B9D-7A35-4E5D-9905-793068261CB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48A82B9D-7A35-4E5D-9905-793068261CB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AB80B56-E171-4264-B9F1-CDBEF7093EAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AB80B56-E171-4264-B9F1-CDBEF7093EAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AB80B56-E171-4264-B9F1-CDBEF7093EAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AB80B56-E171-4264-B9F1-CDBEF7093EAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

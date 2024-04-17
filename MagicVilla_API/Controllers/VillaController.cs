@@ -112,7 +112,7 @@ namespace MagicVilla_API.Controllers
                 }
                 if (await _villaRepo.Obtener(x => x.Nombre.ToLower() == createDto.Nombre.ToLower()) != null)
                 {
-                    ModelState.AddModelError("NombreExiste", "La villa con ese nombre existe");
+                    ModelState.AddModelError("ErrorMessages", "La villa con ese nombre existe");
 
                     return BadRequest(ModelState);
                 }
