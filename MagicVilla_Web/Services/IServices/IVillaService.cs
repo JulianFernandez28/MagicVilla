@@ -4,10 +4,10 @@ namespace MagicVilla_Web.Services.IServices
 {
     public interface IVillaService
     {
-        Task<T> ObtenerTodos<T>();
-        Task<T> Obtener<T>(int id);
-        Task<T> Crear<T>(VillaCreateDto dto);
-        Task<T> Actualizar<T>(VillaUpdateDto dto);
-        Task<T> Remover<T>(int id);
+        Task<T> ObtenerTodos<T>(string Token);
+        Task<T> Obtener<T>(int id, string Token);
+        Task<T> Crear<T>(VillaCreateDto dto, string Token);
+        Task<T> Actualizar<T>(VillaUpdateDto dto, string Token);
+        Task<T> Remover<T>(int id, string Token);
     }
 }
