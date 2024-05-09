@@ -2,6 +2,7 @@
 using MagicVilla_Web.Models;
 using MagicVilla_Web.Models.Dto;
 using MagicVilla_Web.Services.IServices;
+using System.Linq.Expressions;
 
 namespace MagicVilla_Web.Services
 {
@@ -55,6 +56,21 @@ namespace MagicVilla_Web.Services
                 APITipo = DS.APITipo.GET,
                 Url = _villaUrl + "api/Villa",
                 Token= Token
+            });
+        }
+
+        public Task<T> ObtenerTodosPaginado<T>(string Token, int pageNumber = 1, int pageSize = 4)
+        {
+            return SendAsync<T>(new APIRequest()
+            {
+                APITipo = DS.APITipo.GET,
+                Url = _villaUrl + "api/Villa/VillasPaginado",
+                Token = Token,
+                Parametros= new Parametros()
+                {
+                    PageNumber=pageNumber,
+                    PageSize=pageSize
+                }
             });
         }
 
