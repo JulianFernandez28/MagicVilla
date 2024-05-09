@@ -224,3 +224,8 @@ C:\Users\ferna\OneDrive\Documents\Accenture\Proyecto\MagicVilla\MagicVilla_Web\b
 C:\Users\ferna\OneDrive\Documents\Accenture\Proyecto\MagicVilla\MagicVilla_Web\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\ferna\OneDrive\Documents\Accenture\Proyecto\MagicVilla\MagicVilla_Web\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\ferna\OneDrive\Documents\Accenture\Proyecto\MagicVilla\MagicVilla_Web\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\ferna\OneDrive\Documents\Accenture\Proyecto\MagicVilla\MagicVilla_Web\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\ferna\OneDrive\Documents\Accenture\Proyecto\MagicVilla\MagicVilla_Web\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ferna\OneDrive\Documents\Accenture\Proyecto\MagicVilla\MagicVilla_Web\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\ferna\OneDrive\Documents\Accenture\Proyecto\MagicVilla\MagicVilla_Web\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ferna\OneDrive\Documents\Accenture\Proyecto\MagicVilla\MagicVilla_Web\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
